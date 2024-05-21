@@ -23,7 +23,7 @@ def users():
 
 @app.route("/")
 def home():
-    return "Esta es la home"
+    return "Esta es la home (falta una parte)"
 
 if __name__ == "__main__":
     app.run(debug=True)
